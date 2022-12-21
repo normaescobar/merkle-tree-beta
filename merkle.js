@@ -4,6 +4,7 @@ class MerkleTree{
       this.nodes = [];
       this.root = null;
     }
+}
   
     create(){
       let data = this.data;
@@ -14,3 +15,5 @@ class MerkleTree{
       while (this.nodes.length > 1) {
          let newNodes = [];
          for (let i = 0; i < this.nodes.length; i += 2)
+      }
+}
